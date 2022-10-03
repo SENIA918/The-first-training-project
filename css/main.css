@@ -1,0 +1,123 @@
+html {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
+}
+body {
+  padding: 3px; /*all*/
+}
+header {
+  background-color: rgb(241, 238, 241);
+  padding: 30px 0;
+}
+.heading {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: rgb(241, 238, 241);
+}
+.content {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  text-align: center;
+  margin: 50px;
+  line-height: 35px;
+}
+.content-heading {
+  letter-spacing: 4px; 
+  text-align: center;
+}
+.start,
+h1,
+h3,
+h4,
+h5,
+.footer {
+  text-align: center;
+  letter-spacing: 10px;
+}
+.name {
+  letter-spacing: 20px; 
+  font-size: 18px;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 25px;
+}
+.nav-block {
+  display: flex;
+  justify-content: center;
+}
+.nav-block li {
+  margin-bottom: 20px; 
+}
+.nav-block li a {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  margin: 0 30px;
+  color: black;
+}
+.mb-3 { 
+  margin: 0 10px;
+}
+.card { 
+  margin-left: 80px;
+}
+.card-title,
+.card-text,
+.card-body { 
+  letter-spacing: 2px; 
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 50px 0;
+}
+.btn {
+  text-align: center;
+}
+.btn a {
+  border: solid black 1px;
+  padding: 15px 25px;
+  letter-spacing: 2px; 
+  font-size: 16px;
+  color: black;
+}
+.btn a:hover {
+  transition: 0.2s;
+  background-color: rgb(65, 61, 61);
+  color: white;
+  text-decoration: none;
+}
+.footer-conten h3 {
+  padding: 30px 0;
+}
+.footer-content {
+  letter-spacing: 2px; 
+  font-size: 14px;
+  text-align: center;
+}
+.footer-conten h3 { 
+  margin: 30px;
+}
+.footer {
+  background-color: rgb(241, 238, 241);
+  padding: 30px 0;
+}
+.footer-icon {
+  text-align: center;
+}
+.footer-icon img {
+  width: 30px;
+  height: 30px;
+  margin: 15px 5px;
+}
+@media all and (max-width: 920px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-body {
+     margin: 0 auto;
+  }
+}
